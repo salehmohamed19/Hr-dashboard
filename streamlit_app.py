@@ -11,14 +11,7 @@ import io
 import base64
 import time
 
-# ====== إضافات WhatsApp ======
-try:
-    import pywhatkit
-    PYWHATKIT_AVAILABLE = True
-except ImportError:
-    PYWHATKIT_AVAILABLE = False
-    print("⚠️ pywhatkit not installed. WhatsApp features will be disabled.")
-# ===
+
 
 # إعدادات الصفحة
 st.set_page_config(
